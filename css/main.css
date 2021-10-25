@@ -6,9 +6,17 @@ video {
   height: auto;
 }
 
-body {
-  margin: 0;
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+header {
   font-family: "Arial Narrow";
+  font-weight: bold;
+  font-size: large;
+}
+
 }
 
 nav {
@@ -16,12 +24,12 @@ nav {
   justify-content: space-between;
   box-shadow: 0 0 0.25rem 0 rgba(0, 0, 0, 0.16);
   padding: 1rem;
+  background-color: black;
 }
 
 nav ul {
   display: flex;
   gap: 1rem;
-
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -37,16 +45,45 @@ nav ul {
 
 .Coal {
   font-family: "Arial Narrow";
+  color: black;
 }
 
 .Wind {
   font-family: "Arial Narrow";
+  color: black;
 }
 
 .Electric {
   font-family: "Arial Narrow";
+  color: black;
 }
 .card section {
   display: flex;
   flex-direction: column;
 }
+
+.HomePage {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate (-50, -50%);
+  color: black;
+  font-size: large;
+  font-weight: bolder;
+  font-family: "Arial Narrow";
+}
+
+.logo {
+  width: 10%;
+}
+
+body {
+  margin: 0;
+  font-family: "Arial Narrow";
+  color: #e08f51;
+  font-weight: bold;
