@@ -34,7 +34,6 @@ nav ul {
   background-color: black;
 }
 
-
 .Coal {
   font-family: "Arial Narrow";
   color: White;
@@ -77,59 +76,54 @@ nav ul {
 body {
   margin: 0;
   font-family: "Arial Narrow";
-  color:white;
+  color: white;
   font-weight: bold;
-
-  main > * {
-    width: 100%;
-  }
-  
-  
-
-  @media (max-width: 40em) {
-    main {
-      flex-direction: column;
-    }
-  }
-  
-  
-  .main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    font-family: "Arial Narrow";
-  }
-
-  .main {
-    display: flex;
-    gap: 1rem;
-  }
-   
-
-  .panel {
-    padding:
-    background-color: white;
-    display: none;
-    overflow: hidden;
-  }
-
-  body {
-    background-color: black;
 }
 
+main > * {
+  width: 100%;
+}
 
-.footer {
+@media (max-width: 40em) {
+  main {
+    flex-direction: column;
+  }
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-family: "Arial Narrow";
+}
+
+.panel {
+  padding: 0;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+body {
+  background-color: black;
+}
+
+footer {
   text-align: center;
   padding: 3x;
   background-color: black;
   color: white;
+}
 
-  
+iframe {
+  height: auto;
+  width: 100%;
+}
 
- .iframe {
-      height: auto;
-      Width: 100%; 
-    
-    .h2 {
-      background-color: black;
-      color: #E08F51;
-      }
+h2 {
+  background-color: black;
+  color: #e08f51;
+}
+
+.button {
+  color: black;
+}
