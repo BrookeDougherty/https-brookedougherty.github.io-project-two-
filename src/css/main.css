@@ -17,8 +17,6 @@ header {
   font-size: large;
 }
 
-}
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -33,15 +31,9 @@ nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  background-color: black;
 }
 
-@media (min-width: 40em) {
-  .card {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    font-family: "Arial Narrow";
-  }
-}
 
 .Coal {
   font-family: "Arial Narrow";
@@ -85,5 +77,60 @@ nav ul {
 body {
   margin: 0;
   font-family: "Arial Narrow";
-  color: #e08f51;
+  color:black;
   font-weight: bold;
+
+  main > * {
+    width: 100%;
+  }
+  
+  
+
+  @media (max-width: 40em) {
+    main {
+      flex-direction: column;
+    }
+  }
+  
+  
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: "Arial Narrow";
+  }
+
+  .main {
+    display: flex;
+    gap: 1rem;
+  }
+   
+
+  .panel {
+    padding:
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
+  body {
+    background-color: black;
+}
+
+
+.footer {
+  text-align: center;
+  padding: 3x;
+  background-color: black;
+  color: white;
+
+ 
+
+   {
+
+ .iframe {
+      height: auto;
+      Width: 100%; 
+    
+    h1 {
+      background color: black;
+      color: #E08F51 
