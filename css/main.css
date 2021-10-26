@@ -37,17 +37,17 @@ nav ul {
 
 .Coal {
   font-family: "Arial Narrow";
-  color: black;
+  color: White;
 }
 
 .Wind {
   font-family: "Arial Narrow";
-  color: black;
+  color: white;
 }
 
 .Electric {
   font-family: "Arial Narrow";
-  color: black;
+  color: white;
 }
 .card section {
   display: flex;
@@ -77,7 +77,7 @@ nav ul {
 body {
   margin: 0;
   font-family: "Arial Narrow";
-  color:black;
+  color:white;
   font-weight: bold;
 
   main > * {
@@ -123,14 +123,13 @@ body {
   background-color: black;
   color: white;
 
- 
-
-   {
+  
 
  .iframe {
       height: auto;
       Width: 100%; 
     
-    h1 {
-      background color: black;
-      color: #E08F51 
+    .h2 {
+      background-color: black;
+      color: #E08F51;
+      }
