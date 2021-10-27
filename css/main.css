@@ -147,9 +147,16 @@ h2 {
 .accordion {
   background-color: black;
   color: white;
+  cursor: pointer;
+}
+.active,
+.accordion:hover {
+  background-color: #e08f51;
 }
 
 .panel {
   background-color: black;
-  color: black;
+  color: white;
+  display: none;
+  overflow: hidden;
 }
