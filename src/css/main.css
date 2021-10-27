@@ -32,6 +32,26 @@ nav ul {
   padding: 0;
   margin: 0;
   background-color: black;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+nav li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+li a:hover {
+  background-color: #e08f51;
 }
 
 .Coal {
@@ -124,6 +144,12 @@ h2 {
   color: #e08f51;
 }
 
-.button {
+.accordion {
+  background-color: black;
+  color: white;
+}
+
+.panel {
+  background-color: black;
   color: black;
 }
