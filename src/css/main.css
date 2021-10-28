@@ -162,7 +162,6 @@ li a:hover {
 .logo {
   max-width: 10rem;
 }
-
 body {
   margin: 0;
   font-family: "Arial Narrow";
@@ -170,19 +169,19 @@ body {
   font-weight: bold;
 }
 
-@media (max-width: 600px) {
+.grid {
+  max-width: 100%;
+  padding: 1rem;
+}
+.grid section {
+  padding: 3rem;
+  max-width: 600px;
+}
+@media (min-width: 40em) {
   .grid {
-    width: 100%;
-    height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
-}
-
-.grid {
-  grid-template-columns: 1fr 1fr 1fr;
-  font-family: "Arial Narrow";
-  padding: 1rem;
 }
 
 .panel {
@@ -247,9 +246,9 @@ h4 {
 }
 
 h5 {
-  padding: 0.3rem;
+  padding: 0.5rem;
   text-align: center;
-  font-size: 18px;
+  font-size: 19px;
   color: #e08f51;
 }
 
@@ -258,4 +257,47 @@ h5 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 4px;
+}
+
+.column {
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 50%;
+  padding: 4px;
+}
+
+.column img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+h6 {
+  font-size: 19px;
+  text-align: center;
+  color: #e08f51;
+  padding: 0.5rem;
 }
